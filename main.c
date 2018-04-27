@@ -26,6 +26,9 @@ int main()
     eGen_mostrarListadoConBorrados(listadoGenerico,CANTIDAD);
     getchar();
 
+    printf( "\n \t ingrese el id a modificar: ");
+    eGen_modificacion(listadoGenerico,CANTIDAD,idGenerica);
+
 
     return 0;
 }
